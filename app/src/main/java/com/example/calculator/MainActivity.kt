@@ -126,7 +126,7 @@ fun Greeting(vm: CalViewModel = viewModel(), name: String, modifier: Modifier = 
             ) { Text("9", fontSize = 50.sp) }
             Button(
                 modifier = Modifier
-                    .weight(1f)
+                    .weight(2f)
                     .padding(horizontal = 5.dp),
                 onClick = { vm.onClick("c")}
             ) { Text("C", fontSize = 50.sp, color=Color.Red) }
